@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#170c26" />
     <title>NativeSeat | Home</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="article.css" />
   </head>
   <body>
-    <header>
+    <header id="home" >
       <nav class="navigation">
-        <img class="logo-ms" src="logo.png" alt="logo-ms" />
+        <a href="#" >
+       <img class="logo-ms" src="logo.png"/>
+      </a>
         <ul class="nav-menu">
           <li class="nav-item"><a href="#services">Serviços</a></li>
           <li class="nav-item"><a href="../team/">Docs</a></li>
@@ -51,29 +51,102 @@
       <div class="home-imgs"><img src="home-1.png" /></div>
     </section>
 
-    <main>
-      <div class="container">
-          <div class="card">
-            <div class="front">
-              <div class="content"> 
-                <img src="icon-dev.png" />
-                <h3>Web developer</h3>
-              </div>
-            <div class="back">
-              <div class="content">
-                <p> A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server. A web developer may specialize in client-side applications, server-side applications, or both.</p>
-              </div>
-              
-              
+    
+    <article class="services section-padding" data-scroll-index="2" id="services">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>Serviços</h4>
+            <h2>Buscando por um <span>profissional?</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Web design</h3>
+            <p>Fazemos Web design com html, css, javascript, vue.js, next.js, bootstrap, ect do jeito que o clinte quiser.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-edit"></i>
+            </div>
+            <h3>Edição de vídeo</h3>
+            <p>[Em breve]</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>desenvolvimento web</h3>
+            <p>[Em breve]</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Design gráfico</h3>
+            <p>Fazemos o que o clinte quiser.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+        </div>
+      </div>
+    </div>
+  </article>
+  
+   
+     <div class="faq section-padding">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Dúvidas frequentes</h2>
             </div>
           </div>
-      </div>
-
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div id="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                  <h3>Vocês são confiáveis?</h3>
+                </div>
+                <div class="collapse show" id="collapse-01" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Sim, samos 100% confiáveis.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                  <h3>Onde vocês guarda seus códigos e vídeos , fotos</h3>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Guardamos as fotos é vídeos na plataforma mardatabase (privada) , e os códigos no github.</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
      
-      
-   
-    </main>
 
+    
     <script src="script.js"></script>
     <!-- Natal <script src="https://sites.google.com/site/novoefeitoneve/home/novoefeitoneve/snowstorm.js"></script> -->
   </body>
