@@ -15,7 +15,7 @@
     #180c28 65.3%,
     #000000 97.4%
 );
-  --red: rgb(255, 157, 0);
+  --red: #ffc83d
   --white: rgb(255, 255, 255);
   --dark: #121212;
   --no-color: rgba(255, 255, 255, 0);
@@ -32,7 +32,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 1px; 
 }
 
 header {
@@ -52,12 +51,12 @@ header {
 }
 
 i {
-  color: #fff;
+  color: var(--red);
   justify-content: space-between;
 }
 
 i:hover {
-  color: var(--red);
+  color: var(--dark);
 }
 
 .navigation {

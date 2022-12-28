@@ -1,19 +1,13 @@
 :root
 {
     --main-color:#000000;
-    --dark: #000000;
     --shadow-black-100:0 3px 10px #00000000;
     --shadow-black-300:0 5px 15px rgba(2, 2, 2, 0.747);
-    --black-900:rgb(247, 247, 247);
-    --black-400:#ffffff;
-    --black-100:#fff;
-    --white:rgb(255, 200, 61);
-    --black-alpha-100:rgba(241, 0, 0, 0);
-    --fundo: linear-gradient(
-    #0e0e0e 29.69%,
-    #180c28 65.3%,
-    #000000 97.4%
-  );
+    --black-900:#ffc83d;
+    --black-400:#ffffffb8;
+    --black-100:rgb(255, 255, 255);
+    --white:rgb(0, 0, 0);
+    --black-alpha-100:rgba(255, 0, 0, 0);
 }
 
 
@@ -51,6 +45,9 @@ img
     vertical-align: middle;
 }
 
+.github-icon {
+    color: #ffc83d;
+}
 
 ul
 {
