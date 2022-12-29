@@ -73,6 +73,13 @@ i:hover {
   width: 100px;
   height: 100px;
   cursor: pointer;
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));;
+}
+
+.logo-ms:hover {
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 
 .navigation ul {
@@ -177,17 +184,28 @@ i:hover {
   color: var(--dark);
   border-radius: 10px;
   font-weight: 700;
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)); 
+          filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));;
 }
 .home-btn:hover {
   background:  var(--red);
+  -webkit-filter: drop-shadow(1px 1px 10px rgb(255, 242, 0)); 
+          filter: drop-shadow(1px 1px 10px rgb(255, 242, 0));;
 }
 
 .home-imgs img {
-  width: 540px;
-  height: 800px;
+  width: 500px;
+  height: 700px;
   position: absolute;
   right: 10%;
   bottom: 0%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 90%)); 
+        filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 90%));
+}
+
+.home-imgs img:hover {
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 
 .icon img {
@@ -195,6 +213,8 @@ i:hover {
   width: 20px;
   margin: 5px;
   cursor: pointer;
+  -webkit-filter: drop-shadow(0px 0px 1px rgb(255, 242, 0)); 
+  filter: drop-shadow(0px 0px 1px rgb(255, 242, 0));;
 }
 
 @media (max-width: 785px) {
@@ -256,8 +276,8 @@ i:hover {
   }
   
   .logo-ms {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 70px;
     margin: -12px;
   }
 }
