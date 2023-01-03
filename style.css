@@ -61,7 +61,7 @@ i {
 }
 
 i:hover {
-  color: var(--dark);
+  color: #fff;
   -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
         filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
@@ -103,7 +103,7 @@ i:hover {
         filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 .navigation ul li a:hover {
-  color: var(--red);
+  color: #fff;
 }
 .navigation i {
   cursor: pointer;
@@ -150,9 +150,7 @@ i:hover {
   margin-bottom: 1rem;
   line-height: 4rem;
 }
-.home-text p {
-  margin-bottom: 1rem;
-}
+
 .home-btn {
   padding: 15px 45px;
   background: var(--white);
@@ -187,7 +185,7 @@ i:hover {
   line-height: 4rem;
 }
 .home-text p {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .home-btn {
   padding: 15px 45px;
@@ -228,7 +226,7 @@ i:hover {
 
 @media (max-width: 785px) {
   .navigation {
-    padding: 22px 22px;
+    padding: 20px 20px;
     background: #000000;
   }
   .menu {
@@ -236,7 +234,9 @@ i:hover {
   }
 
   .home-imgs img {
-    display: none;
+    /* z-index: 0; */
+    width: 387px;
+    height: 448px;
   }
 
   .menu.ativo .bar:nth-child(1) {
@@ -270,15 +270,13 @@ i:hover {
     text-align: center;
     overflow: hidden;
     gap: 5rem;
-    padding: 40%;
   }
   .home .text-h4 {
     font-size: 15px;
     line-height: 20rem;
   }
   .home .text-h1 {
-    font-size: 1.5rem;
-    
+    font-size: 1.2em;
   }
   .home p {
     font-size: 0.9rem;

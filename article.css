@@ -97,7 +97,7 @@ a,a:hover
 }
 .section-padding
 {
-    padding: 80px 0;
+    padding: 10px 0;
 }
 .section-title
 {
@@ -239,11 +239,11 @@ a,a:hover
 }
 .home-text p
 {
-    font-size: 18px;
-    line-height: 28px;
-    color: var(--black-400);
-    font-weight: 300;
-    padding-bottom: 30px;
+   font-size: 15px;
+   line-height: 17px;
+   color: var(--black-400);
+   font-weight: 300;
+   padding-bottom: 3px;
 }
 .home-img
 {
@@ -983,7 +983,6 @@ a,a:hover
 /* responsive */
 @media(max-width:991px)
 {
-    
     
 .footer .copyright-text
 {
