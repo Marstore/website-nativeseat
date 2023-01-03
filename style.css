@@ -50,13 +50,19 @@ header {
   }
 }
 
+
+
 i {
   color: var(--red);
   justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 
 i:hover {
   color: var(--dark);
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 
 .navigation {
@@ -91,6 +97,8 @@ i:hover {
   color: var(--white);
   font-size: 17px;
   font-weight: 500;
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 242, 0)); 
+        filter: drop-shadow(0px 0px 10px rgb(255, 242, 0));;
 }
 .navigation ul li a:hover {
   color: var(--red);
@@ -152,6 +160,7 @@ i:hover {
 }
 .home-btn:hover {
   background: #000000;
+  
 }
 
 .home {
@@ -246,6 +255,7 @@ i:hover {
     height: 100%;
     flex-direction: column;
     background: var(--dark);
+    z-index: 100
   }
   .nav-menu.ativo {
     right: 0;
