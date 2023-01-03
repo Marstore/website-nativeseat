@@ -237,6 +237,7 @@ i:hover {
     /* z-index: 0; */
     width: 387px;
     height: 448px;
+    position: absolute; 
   }
 
   .menu.ativo .bar:nth-child(1) {
