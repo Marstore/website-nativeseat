@@ -193,13 +193,11 @@ i:hover {
   color: var(--dark);
   border-radius: 10px;
   font-weight: 700;
-  -webkit-filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)); 
-          filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .home-btn:hover {
   background:  var(--red);
-  -webkit-filter: drop-shadow(1px 1px 10px rgb(255, 242, 0)); 
-          filter: drop-shadow(1px 1px 10px rgb(255, 242, 0));;
+  box-shadow: 1px 1px 10px rgb(255, 242, 0);
 }
 
 .home-imgs img {
@@ -255,7 +253,6 @@ i:hover {
     height: 100%;
     flex-direction: column;
     background: var(--dark);
-    z-index: 100
   }
   .nav-menu.ativo {
     right: 0;
