@@ -36,6 +36,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 1000;
 }
 
 @keyframes gradient {
@@ -73,6 +74,7 @@ i:hover {
   width: 100%;
   transition: all 2.2s;
   position: fixed;
+  
 }
 
 .logo-ms {
@@ -227,6 +229,7 @@ i:hover {
 @media (max-width: 785px) {
   .navigation {
     padding: 22px 22px;
+    background: #000000;
   }
   .menu {
     display: block;
