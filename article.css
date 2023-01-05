@@ -97,6 +97,9 @@ a,a:hover
     margin-bottom: 60px;
     
 }
+.section-title h2,h4 {
+    padding-top: 30px;
+}
 .section-title h4
 {
     font-size: 25px;
