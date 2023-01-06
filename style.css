@@ -239,6 +239,14 @@ i:hover {
     scroll-padding-top: 100px;
   }
   
+  .logo-ms-mini {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    display: block;
+    z-index: 1000;
+  }
+
   .navigation {
     padding: 20px 20px;
     background: #000000;
@@ -296,11 +304,8 @@ i:hover {
   
   }
 
-
-  .logo-ms {
-    width: 80px;
-    height: 70px;
-    margin: -10px;
+  .logo-ms{
     display: none;
   }
+
 }
