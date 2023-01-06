@@ -69,11 +69,15 @@ i:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 40px;
+  padding: 1px 1px;
   width: 100%;
   transition: all 2.2s;
   position: fixed;
   
+}
+
+.logo-ms-mini {
+  display: none;
 }
 
 .logo-ms {
@@ -291,13 +295,12 @@ i:hover {
     font-size: 0.9rem;
   
   }
-  
+
+
   .logo-ms {
-    width: 90px;
+    width: 80px;
     height: 70px;
-    margin: -12px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: -10px;
+    display: none;
   }
 }
