@@ -245,11 +245,7 @@ i:hover {
 
   .home-imgs img {
     /* z-index: 0; */
-    width: 387px;
-    height: 448px;
-    position: absolute;
-    right: 10%;
-    bottom: 0%;
+    display: none;
   }
 
   .menu.ativo .bar:nth-child(1) {
@@ -300,5 +296,8 @@ i:hover {
     width: 90px;
     height: 70px;
     margin: -12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 }
