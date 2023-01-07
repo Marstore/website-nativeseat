@@ -21,7 +21,6 @@
   --no-color: rgba(255, 255, 255, 0);
 }
 
-
 body {
   color: var(--white);
   background: var(--fundo);
